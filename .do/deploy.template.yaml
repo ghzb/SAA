@@ -1,0 +1,8 @@
+spec:
+  name: saa
+  services:
+  - dockerfile_path: Dockerfile
+    git:
+      branch: main
+      repo_clone_url: https://github.com/ghzb/saa.git
+    name: saa
